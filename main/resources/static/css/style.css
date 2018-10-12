@@ -1,0 +1,42 @@
+#index {
+	width: 100%;
+	margin: 100px auto;
+	text-align: center;
+}
+#container {
+	position: relative;
+	left: 32%;
+	top: 30px;
+}
+a.dash {
+	margin: 20px;
+}
+form#dash {
+	display: inline-block;
+	margin-left: 100px;
+}
+table {
+	border-collapse: collapse;
+    width: 38%;
+    margin: 10px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h5.red {
+	color: red;
+	margin: 1px;
+}
+h4 {
+	margin: 10px 0 0 0;
+}
+p {
+	margin: 0;
+}
