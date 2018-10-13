@@ -8,6 +8,7 @@
 	<title>Lookify</title>
 </head>
 <body>
+	<a href="/dashboard">Dashboard</a>
 	<h3>Top 10 Songs:</h3>
 	<c:forEach items="${song}" var="play">
 		<h4><c:out value="${play.rating}"/>-<c:out value="${play.title}"/>-<c:out value="${play.artist}"/></h4>
