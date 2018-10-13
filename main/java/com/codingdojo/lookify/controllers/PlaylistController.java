@@ -71,12 +71,12 @@ public class PlaylistController {
 		return "search.jsp";
 	};
 	
-//	@RequestMapping("/search/topTen")
-//	public String topSongs(Model model) {
-//		List<Playlist> songs = playlistService.topTen();
-//		model.addAttribute("song", songs);
-//		return "ten.jsp";
-//	};
+	@RequestMapping("/search/topTen")
+	public String topSongs(Model model) {
+		List<Playlist> songs = playlistService.topTen();
+		model.addAttribute("song", songs);
+		return "ten.jsp";
+	};
 	
 	@RequestMapping("/delete/{id}")
 	public String deletePlaylist(@PathVariable("id") Long id) {
