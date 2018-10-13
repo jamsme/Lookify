@@ -13,6 +13,5 @@ public interface PlaylistRepository extends CrudRepository<Playlist, Long>{
 	
 	List<Playlist> findAll();
 	List<Playlist> findByArtist(String artist);
-//	List<Playlist> findTop10ByRatingDesc();
-
+	List<Playlist> findTop10ByByOrderRatingDesc();
 }
