@@ -42,10 +42,10 @@ public class PlaylistService {
     	return playlistRepo.findByArtist(artist);
     };
     
-//    // getting top 10 songs by rating
-//    public List<Playlist> topTen(){
-//    	return playlistRepo.findTop10ByRatingDesc();
-//    };
+   // getting top 10 songs by rating
+   public List<Playlist> topTen(){
+   	return playlistRepo.findTop10ByOrderByRatingDesc();
+   };
     
     // delete
     public Playlist deletePlaylist(Long id) {
